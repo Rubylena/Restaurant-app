@@ -1,8 +1,9 @@
-import AboutUs from './About/AboutUs';
-import './App.css';
-import Contact from './Contact/Contact';
-import Home from './Home/Home';
-import Navbar from './Home/Navbar';
+import About from "./components/pages/AboutUs";
+import "./App.css";
+import Contact from "./components/pages/Contact";
+import Home from "./components/pages/Home";
+import Navbar from "./components/layout/Navbar";
+import "bootstrap/dist/css/bootstrap.min.css";
 // import {
 //   BrowserRouter,
 //   Routes,
@@ -12,11 +13,11 @@ import Navbar from './Home/Navbar';
 function App() {
   return (
     <div className="App">
-      <Navbar/>
-      <Home/>
-      <Contact/>
-      <AboutUs/>
-      
+      <Navbar />
+      <Home />
+
+      <Contact />
+      <About />
     </div>
   );
 }
