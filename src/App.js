@@ -3,6 +3,7 @@ import "./App.css";
 import Contact from "./components/pages/Contact";
 import Home from "./components/pages/Home";
 import Navbar from "./components/layout/Navbar";
+import "bootstrap/dist/css/bootstrap.min.css";
 // import {
 //   BrowserRouter,
 //   Routes,
@@ -14,6 +15,7 @@ function App() {
     <div className="App">
       <Navbar />
       <Home />
+
       <Contact />
       <About />
     </div>
