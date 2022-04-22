@@ -19,6 +19,22 @@ function App() {
       <Products />
       <Contact />
       <About />
+      <BrowserRouter>
+        <Routes>
+          <Route exact path="/">
+            <Home />
+          </Route>
+          <Route path="/products">
+            <Products />
+          </Route>
+          <Route path="/about">
+            <About />
+          </Route>
+          <Route path="/contact">
+            <Contact />
+          </Route>
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
