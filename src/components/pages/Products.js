@@ -3,7 +3,7 @@ import allProducts from "../data/products_test";
 
 const Products = () => {
   return (
-    <section className=" container-fluid">
+    <section className=" container-fluid py-5 px-3">
       <h1> All Products</h1>
       <div className="row g-3">
         {allProducts.map((product) => (
