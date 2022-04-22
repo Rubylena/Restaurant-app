@@ -17,9 +17,9 @@ const Products = () => {
                 className=" card-img-top "
                 alt={product.name}
               />
-              <div className=" card-body  flex-row">
+              <div className=" card-body">
                 <h2>{product.name}</h2>
-                <h3>{product.price}</h3>
+                <h3>{`$ ${product.price}`}</h3>
               </div>
             </div>
           </div>
