@@ -5,11 +5,7 @@ import Home from "./components/pages/Home";
 import Navbar from "./components/layout/Navbar";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Products from "./components/pages/Products";
-import {
-  BrowserRouter,
-  Routes,
-  Route,
-} from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
@@ -19,7 +15,7 @@ function App() {
       <Products />
       <Contact />
       <About />
-      <BrowserRouter>
+      <Router>
         <Routes>
           <Route exact path="/">
             <Home />
@@ -34,7 +30,7 @@ function App() {
             <Contact />
           </Route>
         </Routes>
-      </BrowserRouter>
+      </Router>
     </div>
   );
 }
