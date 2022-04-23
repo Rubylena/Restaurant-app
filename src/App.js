@@ -5,6 +5,12 @@ import Home from "./components/pages/Home";
 import Navbar from "./components/layout/Navbar";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Products from "./components/pages/Products";
+import {
+  BrowserRouter as Router,
+  Route,
+  Routes,
+  Navigate,
+} from "react-router-dom";
 // import {
 //   BrowserRouter,
 //   Routes,
@@ -13,13 +19,17 @@ import Products from "./components/pages/Products";
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-      <Home />
-
-      <Contact />
-      <About />
-      <Products />
+    <div>
+      <Router>
+        <Navbar />
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+          <Route path="/products" element={<Products />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+        {/* <Navigate to={"/"} /> */}
+      </Router>
     </div>
   );
 }
