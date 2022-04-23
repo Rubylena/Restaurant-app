@@ -5,17 +5,7 @@ import Home from "./components/pages/Home";
 import Navbar from "./components/layout/Navbar";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Products from "./components/pages/Products";
-import {
-  BrowserRouter as Router,
-  Route,
-  Routes,
-  Navigate,
-} from "react-router-dom";
-// import {
-//   BrowserRouter,
-//   Routes,
-//   Route,
-// } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
   return (
@@ -28,7 +18,6 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
-        {/* <Navigate to={"/"} /> */}
       </Router>
     </div>
   );
