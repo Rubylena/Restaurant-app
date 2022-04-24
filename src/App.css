@@ -6,8 +6,14 @@
 
 .navbar-link{
   text-decoration: none;
+  
   color: #ffffff;
   font-weight: bold;
+
+}
+
+.navbar-link:hover{
+  color: rgb(241, 241, 203);
 }
 /* .App {
   text-align: center;
