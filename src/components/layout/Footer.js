@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <div className='f_container'>
       <div class="f_row f_row-1">
-          <h2>Restaurant</h2>
+          <h2><i>La Dope Delish</i></h2>
           <h3>Contact Us</h3>
           <h3>FAQ</h3>
           <h3>Careers</h3>
