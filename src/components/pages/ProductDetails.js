@@ -3,8 +3,10 @@ import allProducts from "../data/products_test";
 import { useParams } from "react-router-dom";
 
 const ProductDetails = () => {
+  // getting product name from and used as id
   const params = useParams();
 
+  // filtering out the product using product name from params
   const data = allProducts.filter(({ name }) => name === params.id);
 
   return (
