@@ -23,6 +23,44 @@
   background-position: center center;
   height: 40rem;
 }
+
+/* About page */
+.ab-page{
+  background-color: #757373;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.about{
+  flex-grow: 1;
+}
+
+.about_img{
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+}
+
+.ab-main{
+  padding: 3em 6em 2em 6em;
+}
+
+.ab-img{
+  padding: 2em 6em 2em 6em;
+}
+
+.img_size{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 767px){
+  .hide{
+    display: none !important;
+  }
+}
 /* .App {
   text-align: center;
 }
