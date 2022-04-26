@@ -1,5 +1,6 @@
 import React from "react";
 import allProducts from "../data/products_test";
+import { Link } from "react-router-dom";
 
 const Products = () => {
   return (
@@ -19,7 +20,16 @@ const Products = () => {
               />
               <div className=" card-body">
                 <h2>{product.name}</h2>
-                <h3>{`$ ${product.price}`}</h3>
+                <div className=" d-flex justify-content-between">
+                  <h3>{`$ ${product.price}.99`}</h3>
+
+                  <Link
+                    className=" btn btn-outline-dark "
+                    to={`/products/${product.name}`}
+                  >
+                    View
+                  </Link>
+                </div>
               </div>
             </div>
           </div>
