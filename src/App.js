@@ -7,6 +7,7 @@ import Footer from "./components/layout/Footer";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Products from "./components/pages/Products";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import ProductDetails from "./components/pages/ProductDetails";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/products" element={<Products />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/products/:id" element={<ProductDetails />} />
         </Routes>
         <Footer />
       </Router>
