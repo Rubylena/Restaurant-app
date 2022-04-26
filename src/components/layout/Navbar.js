@@ -27,7 +27,7 @@ const NavbarComp = () => {
           id="responsive-navbar-nav"
           className=" justify-content-end"
         >
-          <Nav className=" float-end pt-1">
+          <Nav className=" text-center pt-1">
             <ul className=" d-md-flex  ">
               <li className="pt-2">
                 <NavLink className="p-3 navbar-link" to={"/"}>
