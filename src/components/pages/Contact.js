@@ -1,35 +1,34 @@
-import React from "react";
 import { Container, Col, Row, Form, Button } from "react-bootstrap";
 
 function Contact() {
   return (
-    <Container fluid className="p-5 bg-secondary">
-      <Container>
+    <Container className="p-5  ">
+      <Container className="p-5">
         <Row>
-          <Col className="bg-primary text-light p-5 rounded">
-            <Row className="display-3 mb-3 mx-auto">Get in Touch</Row>
-            <Row className="lead text-light mb-5">Fill up the form and our team will get to you in 24 hours</Row>
+          <Col className="p-3 bg-dark text-light  rounded">
+            <Row className="display-3  mx-auto p-5 text-center">Get in Touch</Row>
+            <Row className="p-3 lead text-secondary mb-5">Fill up the form and our team will get to you in 24 hours</Row>
             <Row className="pb-3">
               <Col>
-                <Button className="bg-primary bi bi-telephone-fill link-dark " href="#" />
-                <span className="px-3"> +234-000-000-000</span>
+                <Button className="bi bi-telephone-fill link-dark " href="#" />
+                <span className="px-md-3 px-sm-1"> +234-000-000</span>
               </Col>
             </Row>
             <Row className="pb-3">
               <Col>
-                <Button className="bg-primary bi bi-envelope-fill link-dark " />
-                <span className="px-3"> Group32@sh.com</span>
+                <Button className="bi bi-envelope-fill link-dark " />
+                <span className="px-md-3 px-sm-1"> Group32@sh.com</span>
               </Col>
             </Row>
             <Row className="pb-3">
               <Col>
-                <Button className="bg-primary bi bi-geo-alt-fill link-dark" />
-                <span className="px-3"> Remote str, Lagos</span>
+                <Button className="bi bi-geo-alt-fill link-dark" />
+                <span className="px-md-3 px-sm-1"> Remote str, Lagos</span>
               </Col>
             </Row>
           </Col>
 
-          <Col className="mt-3 mb-3 p-5 bg-light rounded border-right">
+          <Col className="m-4  p-md-3 mw-80 bg-light rounded border">
             <Form>
               <Form.Group className="mb-3" controlId="name">
                 <Form.Label>Name</Form.Label>
