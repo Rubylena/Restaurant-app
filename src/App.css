@@ -15,6 +15,14 @@
 .navbar-link:hover{
   color: rgb(241, 241, 203);
 }
+
+/* productDetails page */
+.mycard-img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 40rem;
+}
 /* .App {
   text-align: center;
 }
