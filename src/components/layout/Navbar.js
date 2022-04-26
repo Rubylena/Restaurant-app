@@ -8,9 +8,14 @@ const NavbarComp = () => {
     <Navbar collapseOnSelect bg="dark" variant="dark" sticky="top" expand="md">
       <Container>
         <Navbar.Brand>
-          {/* <img src={logo} width="40px" height="40px" />  */}
-          <NavLink className="p-3 navbar-link" to={"/"}>
-            Restaurant
+          <img
+            src="https://www.transparentpng.com/thumb/drink/5GybSc-drink-photos.png"
+            width="40px"
+            height="40px"
+            alt="Logo"
+          />
+          <NavLink className="py-3 navbar-link" to={"/"}>
+            La Dope Delish
           </NavLink>
         </Navbar.Brand>
 
@@ -22,24 +27,24 @@ const NavbarComp = () => {
           id="responsive-navbar-nav"
           className=" justify-content-end"
         >
-          <Nav className=" float-end">
-            <ul className=" d-sm-flex  ">
-              <li>
+          <Nav className=" float-end pt-1">
+            <ul className=" d-md-flex  ">
+              <li className="pt-2">
                 <NavLink className="p-3 navbar-link" to={"/"}>
                   Home
                 </NavLink>
               </li>
-              <li>
+              <li className="pt-2">
                 <NavLink className="p-3 navbar-link" to={"/products"}>
                   Products
                 </NavLink>
               </li>
-              <li>
+              <li className="pt-2">
                 <NavLink className="p-3 navbar-link" to={"/about"}>
                   About Us
                 </NavLink>
               </li>
-              <li>
+              <li className="pt-2">
                 <NavLink className="p-3 navbar-link" to={"/contact"}>
                   Contact Us
                 </NavLink>
