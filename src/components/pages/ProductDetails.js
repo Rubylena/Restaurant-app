@@ -1,6 +1,6 @@
 import React from "react";
 import allProducts from "../data/products_test";
-import { useParams } from "react-router-dom";
+import { useParams, Link } from "react-router-dom";
 
 const ProductDetails = () => {
   // getting product name from and used as id
@@ -10,10 +10,16 @@ const ProductDetails = () => {
   const data = allProducts.filter(({ name }) => name === params.id);
 
   return (
-    <section className=" container-fluid px-3 py-5">
+    <section className=" container-fluid px-3 py-4">
       {data.map((prod) => (
         <div key={prod.id}>
           <div className="container">
+            <Link
+              to={"/products"}
+              className=" text-decoration-none text-black fs-5 fw-bold"
+            >
+              <i class="fa-solid fa-chevron-left"></i> Back
+            </Link>
             <div className="row g-3">
               <div
                 className=" mycard-img col-12 col-md-6 shadow-lg g-4"
