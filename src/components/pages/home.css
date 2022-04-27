@@ -23,7 +23,7 @@
     font-family: PoppinsMeduim, sans-serif;
 }
 .home_r1_text h1 {
-    font-size: 4.5rem;
+    font-size: 3.5rem;
     font-weight: bold;
 }
 .home_r1_text h2 {
@@ -59,17 +59,19 @@
         flex-grow: 1;
         flex-basis: 45%;
         margin: 10px;
-        min-width: 400px;
-        min-height: 320px;
+        min-width: 300px;
+        min-height: 250px;
     }
     .home_row_1 {
         width: 100%;
-        min-height: 700px;
+        min-height: 500px;
         justify-content: space-evenly;
         flex-wrap: wrap;
         display: flex;
     }
     .home_r1_text {
+        background-color: rgb(219, 219, 219);
+        border-radius: 10px;
         font-family: PoppinsMeduim, sans-serif;
         text-align: left;
         padding-left: 20px;
@@ -77,13 +79,14 @@
         padding-top: 20px;
     }
     .home_r1_text h1 {
-        font-size: 50px;
+        font-size: 2.0rem;
         font-weight: bold;
     }
     .home_r1_text h2 {
-        font-size: 18px;
+        font-size: 1rem;
         margin-top: 10px;
-        margin-bottom: 60px;
+        margin-bottom: 20px;
+        margin-right: 80px;
         color: rgb(88, 88, 88);
     }
     .home_r1_text button {
@@ -108,7 +111,8 @@
         justify-content: center;
     }
     .home_r1_image img {
-        width: 350px;
-        height: 350px;
+        transform: scale(1.18);
+        width: 250px;
+        height: 250px;
     }
 }
