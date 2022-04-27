@@ -15,9 +15,9 @@ const Footer = () => {
         <h3>FAQ</h3>
         <h3>Careers</h3>
         <h3>Support Us</h3>
-        <h3>Make Arrangement</h3>
+        <h3>Make Reservation</h3>
         <h3>Find Us</h3>
-        <p>&copy; {thisyear} Restaurant, Inc.</p>
+        <p>&copy; {thisyear} <i>La Dope Delish,</i> Inc.</p>
       </div>
       <div className="f_row f_row-2">
         <h2>Social</h2>

@@ -7,8 +7,10 @@ const Home = () => {
     <div className='home_container'>
       <div className='home_row_1'>
         <div className="home_r1 home_r1_text">
-          <h1><i>La Dope Delish</i></h1>
-          <h2>Let's get you satisfied...</h2>
+          <h1>Your <h style={{
+            color: 'red'
+          }}>Favourite</h> Food Restaurant</h1>
+          <h2>We focus on delivering the best of the best to you...</h2>
           <button>MAKE RESERVATION</button>
         </div>
         <div className="home_r1 home_r1_image">
