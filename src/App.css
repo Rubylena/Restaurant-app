@@ -52,9 +52,16 @@
 }
 
 .img_size{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 150ms ease-in-out;
+}
+
+.img_size:hover {
+  transform: scale(1.03);
 }
 
 @media screen and (max-width: 767px){

@@ -36,8 +36,8 @@
     transition: all 90ms ease-in-out;
 }
 .f_row-1 h3:hover {
-    color: grey;
-    transform: scale(1.025);
+    color: rgb(197, 197, 197);
+    transform: scale(1.04);
     cursor: pointer;
 }
 .f_row-1 p {
@@ -59,11 +59,11 @@
     height: 100%;
     width: 150px;
     
-    transition: all 90ms eas-in-out;
+    transition: all 120ms eas-in-out;
 }
 .f_row-2 h3:hover {
-    transform: scale(1.025);
-    color: grey;
+    transform: scale(1.04);
+    color: rgb(173, 173, 173);
     cursor: pointer;
 }
 .f_row-3 {
@@ -98,12 +98,12 @@
     border-color: red;
     font-weight: 600;
     border-radius: 5px;
-    transition: all 90ms ease-in-out;
+    transition: all 120ms ease-in-out;
 }
 .f_row-3 .f_button:hover {
     background-color: rgb(255, 72, 72);
     border-color: rgb(255, 72, 72);
-    transform: scale(1.025);
+    transform: scale(1.04);
 }
 
 .s_container {
