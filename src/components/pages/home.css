@@ -6,7 +6,6 @@
 .home_row_1 {
     width: 100%;
     min-height: 700px;
-    background-color: rgb(230, 230, 230);
     justify-content: space-evenly;
     flex-wrap: wrap;
     display: flex;
@@ -21,12 +20,15 @@
 .home_r1_text {
     padding-left: 80px;
     padding-top: 100px;
+    font-family: PoppinsMeduim, sans-serif;
 }
 .home_r1_text h1 {
-    font-size: 80px;
+    font-size: 4.5rem;
+    font-weight: bold;
 }
 .home_r1_text h2 {
-    margin-top: 30px;
+    font-size: 1.3rem;
+    margin-top: 10px;
     margin-bottom: 60px;
     color: rgb(88, 88, 88);
 }
@@ -37,8 +39,8 @@
     background-color: rgba(0, 0, 0, 0);
     font-size: 20px;
     letter-spacing: 1px;
-    font-weight: 600;
-    border: 2px solid black;
+    font-weight: 700;
+    border: 0.19rem solid black;
     transition: all 90ms ease-in-out;
 }
 .home_r1_text button:hover {
@@ -63,20 +65,24 @@
     .home_row_1 {
         width: 100%;
         min-height: 700px;
-        background-color: rgb(230, 230, 230);
         justify-content: space-evenly;
         flex-wrap: wrap;
         display: flex;
     }
     .home_r1_text {
-        padding-left: 30px;
-        padding-top: 70px;
+        font-family: PoppinsMeduim, sans-serif;
+        text-align: left;
+        padding-left: 20px;
+        padding-right: 15px;
+        padding-top: 20px;
     }
     .home_r1_text h1 {
         font-size: 50px;
+        font-weight: bold;
     }
     .home_r1_text h2 {
-        margin-top: 14px;
+        font-size: 18px;
+        margin-top: 10px;
         margin-bottom: 60px;
         color: rgb(88, 88, 88);
     }
