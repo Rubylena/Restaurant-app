@@ -2,6 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import "bootstrap/dist/js/bootstrap.min.js";
+import cupicon from './icons/icon.png'
 
 const NavbarComp = () => {
   return (
@@ -9,12 +10,13 @@ const NavbarComp = () => {
       <Container>
         <Navbar.Brand>
           <img
-            src="https://www.transparentpng.com/thumb/drink/5GybSc-drink-photos.png"
+            // src="https://www.transparentpng.com/thumb/drink/5GybSc-drink-photos.png"
+            src = {cupicon}
             width="40px"
             height="40px"
             alt="Logo"
           />
-          <NavLink className="py-3 navbar-link" to={"/"}>
+          <NavLink className="py-3 navbar-link" to={"/"} style={{fontFamily: 'PoppinsMeduim, sans-serif'}}>
             La Dope Delish
           </NavLink>
         </Navbar.Brand>
@@ -28,7 +30,7 @@ const NavbarComp = () => {
           className=" justify-content-end"
         >
           <Nav className=" text-center pt-1">
-            <ul className=" d-md-flex  ">
+            <ul className=" d-md-flex  " style={{fontFamily: 'PoppinsMeduim, sans-serif'}}>
               <li className="pt-2">
                 <NavLink className="p-3 navbar-link" to={"/"}>
                   Home
