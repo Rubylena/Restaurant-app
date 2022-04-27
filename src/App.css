@@ -26,7 +26,8 @@
 
 /* About page */
 .ab-page{
-  background-color: #757373;
+  background-color: #ffffff;
+  /* background-color: #757373; */
   width: 100%;
   display: flex;
   flex-direction: column;
