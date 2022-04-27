@@ -35,7 +35,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="f_row f_row-3">
-        <h2>Stay up to date on the latest from Restaurant</h2>
+        <h2>Stay up to date on the latest from <i>La Dope Delish</i></h2>
         <input
           className={"email"}
           type={"email"}
