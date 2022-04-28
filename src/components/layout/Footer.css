@@ -122,3 +122,131 @@
     height: 28px;
     width: 28px;
 }
+
+@media only screen and (max-width:700px) {
+    .f_container {
+        background-color: rgb(20, 21, 24);
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        min-height: 260px;
+        justify-content: space-evenly;
+        overflow-x: hidden;
+        padding: 5px 0;
+    }
+    
+    .f_row {
+        flex-grow: 0;
+        flex-basis: 22%;
+        min-width: 320px;
+        min-height: 250px;
+        margin: 5px;
+        position: relative;
+        color: white;
+    }
+    .f_row-1 {
+        min-width: 180px;
+        padding-left: 10px;
+    }
+    .f_row-1 h2 {
+        margin-top: 10px;
+        font-size: 11px;
+        color: rgb(204, 204, 204);
+        margin-bottom: 20px;
+    } 
+    .f_row-1 h3 {
+        color: white;
+        margin-top: 2px;
+        font-size: 15px;
+        font-weight: 500;
+        transition: all 90ms ease-in-out;
+    }
+    .f_row-1 h3:hover {
+        color: rgb(197, 197, 197);
+        transform: scale(1.04);
+        cursor: pointer;
+    }
+    .f_row-1 p {
+        margin-top: 20px;
+        font-size: 10px;
+    }
+    .f_row-2 {
+        min-width: 160px;
+        padding-left: 10px;   
+        padding-top: 10px;
+    }
+    .f_row-2 h2 {
+        font-size: 11px;
+        color: rgb(204, 204, 204);
+    }
+    .f_row-2 h3 {
+        margin-left: 5px;
+        font-size: 17px;
+        margin-bottom: 20px;
+        height: 100%;
+        width: 150px;
+        
+        transition: all 120ms eas-in-out;
+    }
+    .f_row-2 h3:hover {
+        transform: scale(1.04);
+        color: rgb(173, 173, 173);
+        cursor: pointer;
+    }
+    .f_row-3 {
+        min-width: 370px;
+        flex-basis: 45%;
+        padding-left: 10px;
+        padding-top: 10px;
+        padding-right: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    .f_row-3 .email {
+        border: 0;
+        border-bottom: 1px solid rgb(212, 212, 212);
+        margin-top: 10px;
+        height: 50px;
+        margin-bottom: 20px;
+        background-color: rgba(0, 0, 0, 0);
+        cursor: pointer; 
+        color: white;
+    }
+    .f_row-3 .email:focus {
+        outline: 0;
+        border-bottom: 1px solid rgb(212, 212, 212);
+    }
+    .f_row-3 .f_button {
+        cursor: pointer;
+        width: 150px;
+        height: 50px;
+        color: white;
+        background-color: red;
+        border-color: red;
+        font-weight: 600;
+        border-radius: 5px;
+        transition: all 120ms ease-in-out;
+    }
+    .f_row-3 .f_button:hover {
+        background-color: rgb(255, 72, 72);
+        border-color: rgb(255, 72, 72);
+        transform: scale(1.04);
+    }
+    
+    .s_container {
+        width: 200px;
+        height: 250px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    .s_social_container {
+        height: 50px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+    .s_image {
+        height: 21px;
+        width: 21px;
+    }
+}
