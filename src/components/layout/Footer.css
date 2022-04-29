@@ -196,7 +196,7 @@
     .f_row-3 {
         min-width: 370px;
         flex-basis: 45%;
-        padding-left: 10px;
+        padding-left: 20px;
         padding-top: 10px;
         padding-right: 10px;
         display: flex;
