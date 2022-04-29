@@ -22,10 +22,19 @@
         padding-top: 10px;
     }
     .about img {
-        width: 100%;
+        width: calc(100vw - 20px);
         height: 95vw;
         background-repeat: no-repeat;
         background-size: contain;
+        margin: 10px;
+        border-radius: 10px;
+    }
+    .about {
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        padding-top: 0px;
     }
 }
 
