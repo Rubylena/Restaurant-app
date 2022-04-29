@@ -5,6 +5,7 @@ import { Col, Container, Row } from 'react-bootstrap'
 import spicy from './img/spicy.jpg'
 import veggie from './img/veggie.jpg'
 import yummy from './img/yummy.jpg'
+import './aboutus.css'
 
 
 
@@ -18,8 +19,8 @@ const AboutUs = () => {
     <Container fluid='md'>
       <Row md={8} className='ab-main'>
         <Col className='justify-content-center'>
-        <h3>WHO ARE WE</h3>
-        <p>our vision is to povide friends and neighbors with the original form of social networking, a fun condusive restaurant to chill. We believe in providing exceptional quality product and friendly services in a clean and welcoming environment. This has earned our restaurant the most sort after in the area.</p>
+        <h3>WHO WE ARE</h3>
+        <p>Our vision is to povide friends and neighbors with the original form of social networking, a fun condusive restaurant to chill. We believe in providing exceptional quality product and friendly services in a clean and welcoming environment. This has earned our restaurant the most sort after in the area.</p>
         </Col>
       </Row>
       <Row className='ab-img hide'>
