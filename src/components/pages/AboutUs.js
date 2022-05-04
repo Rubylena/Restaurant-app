@@ -21,6 +21,7 @@ const AboutUs = () => {
         <Col className='justify-content-center'>
         <h3>WHO WE ARE</h3>
         <p>Our vision is to povide friends and neighbors with the original form of social networking, a fun condusive restaurant to chill. We believe in providing exceptional quality product and friendly services in a clean and welcoming environment. This has earned our restaurant the most sort after in the area.</p>
+        <p>Urban Food is an international food,this has earned our restaurant the most sort after in the areagit</p>
         </Col>
       </Row>
       <Row className='ab-img hide'>
