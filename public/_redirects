@@ -1,0 +1,2 @@
+/* /index.html 200
+<!-- This redirect rule will serve the index.html instead of ivin a 404 no matter what URL the browser requests.-->
