@@ -1,5 +1,3 @@
-#Deployment link
-https://restaurant-webapp.netlify.app/
 
 # Getting Started with Create React App
 
